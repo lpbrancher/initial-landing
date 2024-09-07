@@ -1,0 +1,40 @@
+:root {
+  font-family: monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 600;
+  display: block;
+  color: #8C8CFF;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1725663656850-7bc515816fcd?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+}
+
+.weather-icon {
+  width: 100px;
+}
+
+.links-section {
+  margin: 15px;
+}
+
+.section-title {
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 8px;
+}

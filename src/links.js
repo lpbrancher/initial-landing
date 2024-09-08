@@ -17,8 +17,8 @@ const urls = {
         },
         {
             key: '4',
-            title: 'urledin',
-            url: 'https://urledin.com/'
+            title: 'linkedin',
+            url: 'https://linkedin.com/'
         },
         {
             key: '5',

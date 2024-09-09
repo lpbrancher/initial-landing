@@ -1,5 +1,5 @@
 const urls = {
-    dev: [
+    work: [
         {
             key: '1',
             title: "outlook",
@@ -20,22 +20,12 @@ const urls = {
             title: 'linkedin',
             url: 'https://linkedin.com/'
         },
+    ],
+    dev: [
         {
             key: '5',
             title: 'github',
             url: 'https://github.com/'
-        },
-        {
-            key: '6',
-            title: 'leetcode',
-            url: 'https://leetcode.com/'
-        }
-    ],
-    web: [
-        {
-            key: '7',
-            title: 'reddit',
-            url: 'https://old.reddit.com'
         },
         {
             key: '8',
@@ -43,14 +33,28 @@ const urls = {
             url: 'https://old.reddit.com/r/brdev'
         },
         {
-            key: '9',
-            title: 'bsky',
-            url: 'https://bsky.app'
+            key: '6',
+            title: 'leetcode',
+            url: 'https://leetcode.com/'
         },
         {
             key: '10',
             title: 'tabnews',
             url: 'https://tabnews.com.br/'
+        },
+        
+        
+    ],
+    brainrot: [
+        {
+            key: '7',
+            title: 'reddit',
+            url: 'https://old.reddit.com'
+        },
+        {
+            key: '9',
+            title: 'bsky',
+            url: 'https://bsky.app'
         },
         {
             key: '11',
@@ -58,21 +62,21 @@ const urls = {
             url: 'https://www.youtube.com/'
         },
         {
-            key: '12',
-            title: 'dev.to',
-            url: 'https://dev.to/'
-        }
+            key: '17',
+            title: 'twitch',
+            url: 'https://www.twitch.tv/'
+        },
+        {
+            key: '14',
+            title: "pinterest",
+            url: "https://pinterest.com",
+        },
     ],
     personal: [
         {
             key: '13',
             title: "e-mail",
             url: "https://autistici.org",
-        },
-        {
-            key: '14',
-            title: "pinterest",
-            url: "https://pinterest.com",
         },
         {
             key: '15',

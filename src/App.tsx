@@ -46,14 +46,20 @@ function App() {
 
         <div className="links-container flex mt-20 backdrop-blur-sm py-6 px-14 border-2 rounded-lg">
           <div className="links-section mr-20">
+            <h2 className="section-title">work</h2>
+            {links.work.map((i: any) => (
+              <a key={i.key} href={i.url}>{i.title}</a>
+            ))}
+          </div>
+          <div className="links-section mr-20">
             <h2 className="section-title">dev</h2>
             {links.dev.map((i: any) => (
               <a key={i.key} href={i.url}>{i.title}</a>
             ))}
           </div>
           <div className="links-section mr-20">
-            <h2 className="section-title">the web</h2>
-            {links.web.map((i: any) => (
+            <h2 className="section-title">brainrot</h2>
+            {links.brainrot.map((i: any) => (
               <a key={i.key} href={i.url}>{i.title}</a>
             ))}
           </div>

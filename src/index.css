@@ -16,8 +16,9 @@
 a {
   font-weight: 500;
   display: block;
-  color: white;
-  font-size: 18px;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 16px;
+  margin-bottom: 4px;
 }
 
 a:hover {
@@ -25,9 +26,9 @@ a:hover {
 }
 
 body {
-  background-image: url('https://images.unsplash.com/photo-1725663656850-7bc515816fcd');
+  background-image: url('bg.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
 }
 
 .weather-container {
@@ -48,8 +49,9 @@ body {
 }
 
 .section-title {
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: underline;
+  margin-bottom: 15px;
 }
 
 .weather-container,

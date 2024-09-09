@@ -48,19 +48,19 @@ function App() {
           <div className="links-section mr-20">
             <h2 className="section-title">dev</h2>
             {links.dev.map((i: any) => (
-              <a className='' target='_blank' key={i.key} href={i.url}>{i.title}</a>
+              <a key={i.key} href={i.url}>{i.title}</a>
             ))}
           </div>
           <div className="links-section mr-20">
             <h2 className="section-title">the web</h2>
             {links.web.map((i: any) => (
-              <a className='' target='_blank' key={i.key} href={i.url}>{i.title}</a>
+              <a key={i.key} href={i.url}>{i.title}</a>
             ))}
           </div>
           <div className="links-section">
             <h2 className="section-title">personal</h2>
             {links.personal.map((i: any) => (
-              <a className='' target='_blank' key={i.key} href={i.url}>{i.title}</a>
+              <a key={i.key} href={i.url}>{i.title}</a>
             ))}
           </div>
         </div>

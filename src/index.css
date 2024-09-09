@@ -38,14 +38,13 @@ body {
 .weather-icon-container {
   width: 100px;
   height: 100px;
+  margin-bottom: 20px;
 }
 
 .weather-icon {
   width: 100px;
-}
-
-.links-section {
-  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.50);
+  border-radius: 10px;
 }
 
 .section-title {
@@ -53,6 +52,8 @@ body {
   text-decoration: underline;
 }
 
-.weather-container {
+.weather-container,
+.links-container {
   font-size: 18px;
+  background-color: rgba(24, 32, 36, .8);
 }

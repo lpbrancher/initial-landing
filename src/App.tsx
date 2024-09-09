@@ -37,21 +37,21 @@ function App() {
   return (
     <>
       <div className="wrapper flex flex-col pt-32 items-center h-screen">
-        <div className="weather-container flex flex-col justify-center items-center w-fit text-center border-2 rounded-lg p-3 backdrop-blur-sm">
+        <div className="weather-container flex flex-col justify-center items-center text-center border-2 rounded-lg py-8 backdrop-blur-sm">
           {icon == 'loading' ? <h1>Loading!</h1> : <><div className="weather-icon-container"><img src={icon} alt="" className="weather-icon" /></div>
             <h3>{loc}</h3>
             <h4 className="weather-name m-0">{weatherName}</h4>
             <p>{temp}°C</p></>}
         </div>
 
-        <div className="links-container flex mt-20 backdrop-blur-sm p-3 pt-0 border-2 rounded-lg">
-          <div className="links-section">
+        <div className="links-container flex mt-20 backdrop-blur-sm py-6 px-14 border-2 rounded-lg">
+          <div className="links-section mr-20">
             <h2 className="section-title">dev</h2>
             {links.dev.map((i: any) => (
               <a className='' target='_blank' key={i.key} href={i.url}>{i.title}</a>
             ))}
           </div>
-          <div className="links-section">
+          <div className="links-section mr-20">
             <h2 className="section-title">the web</h2>
             {links.web.map((i: any) => (
               <a className='' target='_blank' key={i.key} href={i.url}>{i.title}</a>

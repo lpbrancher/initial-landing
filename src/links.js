@@ -10,6 +10,11 @@ const urls = {
             title: 'sharepoint',
             url: 'https://senacrs365.sharepoint.com/sites/FS-GETE-MATERIAIS/Documentos%20Compartilhados/Forms/AllItems.aspx'
         },
+                {
+            key: '19',
+            title: 'planner',
+            url: 'https://planner.cloud.microsoft'
+        },
         {
             key: '3',
             title: 'intranet',
@@ -62,6 +67,11 @@ const urls = {
             url: 'https://www.youtube.com/'
         },
         {
+            key: '12',
+            title: 'xitter',
+            url: 'https://www.twitter.com/'
+        },
+        {
             key: '17',
             title: 'twitch',
             url: 'https://www.twitch.tv/'
@@ -91,7 +101,7 @@ const urls = {
             tag: "estudos",
         },
          {
-            key: '17',
+            key: '18',
             title: "drive",
             url: "https://drive.google.com/",
         },

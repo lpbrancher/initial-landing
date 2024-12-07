@@ -105,6 +105,11 @@ const urls = {
             title: "drive",
             url: "https://drive.google.com/",
         },
+        {
+            key: '20',
+            title: 'torrentleech',
+            url: "https://torrentleech.org"
+        },
     ]
 }
 
